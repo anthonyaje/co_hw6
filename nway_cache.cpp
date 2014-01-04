@@ -104,6 +104,10 @@ void simulate(int cache_size, int block_size, int assoc){
 
 	fclose(fp);
 
+	for(int i=0;i<setNumber;i++)
+		delete [] lru[i];
+	delete [] lru;
+
 	delete [] cache;
 }
 
