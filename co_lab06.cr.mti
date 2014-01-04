@@ -1,0 +1,115 @@
+{D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/Reg_File.v} {1 {vlog -work work {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/Reg_File.v}
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module Reg_File
+
+Top level modules:
+	Reg_File
+
+} {} {}} {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/Decoder.v} {2 {vlog -work work {D:\Anthony\My Documents\Dropbox\5th Semester\Computer Organization\Assignment\2013CO_Lab6\co_hw6\0016110_0016328\Decoder.v}
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module Decoder
+** Warning: D:\Anthony\My Documents\Dropbox\5th Semester\Computer Organization\Assignment\2013CO_Lab6\co_hw6\0016110_0016328\Decoder.v(157): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+
+Top level modules:
+	Decoder
+
+} {} {}} {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/ProgramCounter.v} {1 {vlog -work work {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/ProgramCounter.v}
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module ProgramCounter
+
+Top level modules:
+	ProgramCounter
+
+} {} {}} {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/MUX_3to1.v} {1 {vlog -work work {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/MUX_3to1.v}
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module MUX_3to1
+
+Top level modules:
+	MUX_3to1
+
+} {} {}} {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/Instr_Memory.v} {1 {vlog -work work {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/Instr_Memory.v}
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module Instr_Memory
+
+Top level modules:
+	Instr_Memory
+
+} {} {}} {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/Simple_Single_CPU.v} {1 {vlog -work work {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/Simple_Single_CPU.v}
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module Simple_Single_CPU
+
+Top level modules:
+	Simple_Single_CPU
+
+} {} {}} {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/alu.v} {1 {vlog -work work {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/alu.v}
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/Shift_Left_Two_28.v} {1 {vlog -work work {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/Shift_Left_Two_28.v}
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module Shift_Left_Two_28
+
+Top level modules:
+	Shift_Left_Two_28
+
+} {} {}} {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/Data_Memory.v} {1 {vlog -work work {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/Data_Memory.v}
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module Data_Memory
+
+Top level modules:
+	Data_Memory
+
+} {} {}} {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/Shift_Left_Two_32.v} {1 {vlog -work work {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/Shift_Left_Two_32.v}
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module Shift_Left_Two_32
+
+Top level modules:
+	Shift_Left_Two_32
+
+} {} {}} {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/ALU_Ctrl.v} {1 {vlog -work work {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/ALU_Ctrl.v}
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module ALU_Ctrl
+
+Top level modules:
+	ALU_Ctrl
+
+} {} {}} {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/MUX_2to1.v} {1 {vlog -work work {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/MUX_2to1.v}
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module MUX_2to1
+
+Top level modules:
+	MUX_2to1
+
+} {} {}} {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/TestBench.v} {1 {vlog -work work {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/TestBench.v}
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module TestBench
+
+Top level modules:
+	TestBench
+
+} {} {}} {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/Sign_Extend.v} {1 {vlog -work work {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/Sign_Extend.v}
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module Sign_Extend
+
+Top level modules:
+	Sign_Extend
+
+} {} {}} {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/Adder.v} {1 {vlog -work work {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/Adder.v}
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}} {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/MUX_4to1.v} {1 {vlog -work work {D:/Anthony/My Documents/Dropbox/5th Semester/Computer Organization/Assignment/2013CO_Lab6/co_hw6/0016110_0016328/MUX_4to1.v}
+Model Technology ModelSim PE Student Edition vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module MUX_4to1
+
+Top level modules:
+	MUX_4to1
+
+} {} {}}

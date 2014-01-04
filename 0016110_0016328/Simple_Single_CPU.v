@@ -57,12 +57,13 @@ wire memRead;
 wire memWrite;
 wire [1:0] memToReg;
 wire [27:0] temp_jump_add;
+wire [31:0] jump_address1;
 
 wire [31:0] zero_ex;
 assign zero_ex = {16'd0, inst_o[15:0]};
 assign select_adder2 = (branchType==0)?(branch&zero_flag):(branch&ALU_res[0]);
-assign tem_jump_wire = jump_address[27:0];
-assign jump_address = {adder1_o[31:28],temp_jump_add};
+assign temp_jump_add = jump_address[27:0];
+assign jump_address1 = {adder1_o[31:28],temp_jump_add};
 
 //Create components
 ProgramCounter PC(
@@ -85,7 +86,7 @@ Shift_Left_Two_28 Shifter_jump(
 
 MUX_3to1 #(.size(32)) Mux_PC_JUMP(
         .data0_i(pc_mux),
-        .data1_i(jump_address),
+        .data1_i(jump_address1),
         .data2_i(RSdata_o),
         .select_i(jump),
         .data_o(pc_source)

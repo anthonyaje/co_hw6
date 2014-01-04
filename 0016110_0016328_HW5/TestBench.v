@@ -5,7 +5,7 @@ module TestBench;
   reg CLK, START;
   integer handle1, handle2;
   
- Simple_Single_CPU cpu(
+ Pipe_CPU_1 cpu(
         .clk_i(CLK),
 		.rst_n(START)
 		);
@@ -21,7 +21,7 @@ module TestBench;
     #(`CYCLE_TIME)
     
     START = 1;
-    #(`CYCLE_TIME*1000)	begin
+    #(`CYCLE_TIME*5000)	begin
     $fclose(handle1);
 	$fclose(handle2);
   $stop;

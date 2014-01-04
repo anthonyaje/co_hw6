@@ -77,7 +77,7 @@ always@(*)begin
 		end
 		7:begin
 			case(bonus_control)
-				3'b000:begin
+				3'b000:begin //slt
 					result <= (src1<src2)?1:0;
 				end
 				3'b001:begin //sgt

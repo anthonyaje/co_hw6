@@ -1,0 +1,66 @@
+//DCACHE
+
+Cache Size: 32 Bytes
+Block Size: 4 Bytes
+cache line:8
+miss rate: 0.52381
+
+Cache Size: 32 Bytes
+Block Size: 8 Bytes
+cache line:4
+miss rate: 0.468254
+
+Cache Size: 32 Bytes
+Block Size: 16 Bytes
+cache line:2
+miss rate: 0.563492
+
+Cache Size: 32 Bytes
+Block Size: 32 Bytes
+cache line:1
+miss rate: 0.634921
+
+Cache Size: 64 Bytes
+Block Size: 8 Bytes
+cache line:8
+miss rate: 0.301587
+
+Cache Size: 64 Bytes
+Block Size: 16 Bytes
+cache line:4
+miss rate: 0.396825
+
+Cache Size: 64 Bytes
+Block Size: 32 Bytes
+cache line:2
+miss rate: 0.492063
+
+Cache Size: 128 Bytes
+Block Size: 8 Bytes
+cache line:16
+miss rate: 0.111111
+
+Cache Size: 128 Bytes
+Block Size: 16 Bytes
+cache line:8
+miss rate: 0.0555556
+
+Cache Size: 128 Bytes
+Block Size: 32 Bytes
+cache line:4
+miss rate: 0.031746
+
+Cache Size: 256 Bytes
+Block Size: 8 Bytes
+cache line:32
+miss rate: 0.111111
+
+Cache Size: 256 Bytes
+Block Size: 16 Bytes
+cache line:16
+miss rate: 0.0555556
+
+Cache Size: 256 Bytes
+Block Size: 32 Bytes
+cache line:8
+miss rate: 0.031746

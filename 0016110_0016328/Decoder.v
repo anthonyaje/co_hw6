@@ -136,6 +136,8 @@ always@(*)begin
 		6'b001111: RegWrite_o <= 1;
 		//jal
 		6'b000011: RegWrite_o <= 1;
+		//slt
+		6'b101010: RegWrite_o <= 1;
 		default: RegWrite_o <= 0;	
 		
 	endcase

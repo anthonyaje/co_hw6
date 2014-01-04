@@ -95,10 +95,10 @@ end
 	   
 always@(*)begin
 	case(ALUOp_i)
-		//4'
 		4'b1011: bonus_control_o <= 3'b001;  //sgt
 		4'b1010: bonus_control_o <= 3'b100;  //neq
 		4'b1001: bonus_control_o <= 3'b101;  ////greater than or equal to src2-1
+		default: bonus_control_o <= 3'b000;
 	endcase
 end
 

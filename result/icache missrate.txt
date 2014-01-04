@@ -1,0 +1,70 @@
+//ICACHE
+
+Cache Size: 32 Bytes
+Block Size: 4 Bytes
+cache line:8
+miss rate: 0.986431
+
+Cache Size: 32 Bytes
+Block Size: 8 Bytes
+cache line:4
+miss rate: 0.521031
+
+Cache Size: 32 Bytes
+Block Size: 16 Bytes
+cache line:2
+miss rate: 0.272727
+
+Cache Size: 32 Bytes
+Block Size: 32 Bytes
+cache line:1
+miss rate: 0.188602
+
+Cache Size: 64 Bytes
+Block Size: 8 Bytes
+cache line:8
+miss rate: 0.404342
+
+Cache Size: 64 Bytes
+Block Size: 16 Bytes
+cache line:4
+miss rate: 0.213026
+
+Cache Size: 64 Bytes
+Block Size: 32 Bytes
+cache line:2
+miss rate: 0.157395
+
+Cache Size: 128 Bytes
+Block Size: 8 Bytes
+cache line:16
+miss rate: 0.0502035
+
+Cache Size: 128 Bytes
+Block Size: 16 Bytes
+cache line:8
+miss rate: 0.0284939
+
+Cache Size: 128 Bytes
+Block Size: 32 Bytes
+cache line:4
+miss rate: 0.0176391
+
+Cache Size: 256 Bytes
+Block Size: 8 Bytes
+cache line:32
+miss rate: 0.0434193
+
+Cache Size: 256 Bytes
+Block Size: 16 Bytes
+cache line:16
+miss rate: 0.0217096
+
+Cache Size: 256 Bytes
+Block Size: 32 Bytes
+cache line:8
+miss rate: 0.0108548
+
+
+Process returned 0 (0x0)   execution time : 0.098 s
+Press any key to continue.
