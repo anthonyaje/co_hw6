@@ -25,7 +25,7 @@ void simulate(int cache_size, int block_size){
 	for(int j=0;j<line;j++)
 		cache[j].v = false;
 
-  FILE * fp = fopen("DCACHE.txt","r");					//read file
+  FILE * fp = fopen("ICACHE.txt","r");					//read file
 	unsigned long long missNumber = 0;
 	unsigned long long hitNumber = 0;
 
@@ -70,7 +70,7 @@ int main(){
             bsize *= 2;
         }
         csize *= 2;
-        bsize = 8;
+        bsize = 4;
 	}
 
 return 0;

@@ -50,7 +50,7 @@ void simulate(int cache_size, int block_size, int assoc){
 	for(int j=0;j<line;j++)
 		cache[j].v = false;
 
-    FILE * fp = fopen("RADIX.txt","r");					//read file
+    FILE * fp = fopen("LU.txt","r");					//read file
 
 	unsigned long long missNumber = 0;
 	unsigned long long hitNumber = 0;
@@ -114,25 +114,28 @@ void simulate(int cache_size, int block_size, int assoc){
 int main(){
 	// Let us simulate 4KB cache with 16B blocks
 	int bsize = 4;          //BYTES
-	double csize = 32;    //BYTES
-	int assoc = 4;
+	double csize = 64;    //BYTES
+	int assoc = 1;
 /*	cout<<"cache size: ";
 	cin>>csize;
 	cout<<"block size: ";
 	cin>>bsize;
 	int i=1;
-	while (i++ <= 6 ){
-        while(bsize <= 32 ){
+	*/
+
+	int i=1;
+	while (i++ <= 4 ){
+        while(assoc <= 8 ){
             cout<<"Cache Size: "<<csize<<" Bytes"<<endl;
-            cout<<"Block Size: "<<bsize<<" Bytes"<<endl;
+            cout<<"Assoc Size: "<<assoc<<endl;
             simulate(csize, bsize, assoc);
-            bsize *= 2;
+            assoc *= 2;
         }
         csize *= 2;
-        bsize = 4;
+        assoc = 1;
 	}
-	*/
-    simulate(1024, 4, 4);
+
+    //simulate(1024, 4, 4);
 
 return 0;
 }
